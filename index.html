@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VedicGuru - Astrology, Vastu & Numerology</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">VedicGuru</div>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <h1>Welcome to VedicGuru</h1>
+        <p>Unveil the mysteries of life with Astrology, Vastu, and Numerology</p>
+        <a href="#services" class="cta-button">Explore Our Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        
+        <div class="about-content">
+            <div class="image-container">
+                <img src="images/about-vedicguru.jpg" alt="VedicGuru About Us">
+            </div>
+            <div class="text-container">
+                <h1>About VedicGuru</h1>
+                <br>
+                <p>At VedicGuru, we believe in the power of ancient wisdom to guide individuals through their journey of life. We offer personalized consultations in Astrology, Vastu, and Numerology to align your energies and unlock your true potential.</p>
+                <p>Our team of expert astrologers and Vastu consultants have years of experience in providing accurate and insightful guidance to clients across the globe. Let VedicGuru be your trusted guide in shaping a harmonious and prosperous future.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="images/astrology-service.jpg" alt="Astrology Service">
+                <h3>Astrology</h3>
+                <p>Discover your life path and future with personalized birth charts, horoscope readings, and astrological consultations. Learn how planetary positions affect your life's course and take informed decisions.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/vastu-service.jpg" alt="Vastu Consultation">
+                <h3>Vastu</h3>
+                <p>Enhance the positive energy in your living or workspace by implementing ancient Vastu principles. Our experts will help you optimize the flow of energy for prosperity, success, and well-being.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/numerology-service.jpg" alt="Numerology Consultation">
+                <h3>Numerology</h3>
+                <p>Unlock the hidden meanings of numbers in your life. Our numerology consultations provide insights into your destiny, personality, and opportunities through the power of numbers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"VedicGuru's astrology readings have been life-changing! Their insights helped me make important career decisions, and I couldn’t be happier with the outcome."</p>
+                <h4>- Priya Sharma</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"I followed VedicGuru’s Vastu recommendations for my home, and the positive energy in the space is now undeniable. I highly recommend their services!"</p>
+                <h4>- Rahul Verma</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"The numerology reading I received from VedicGuru was spot on. It gave me clarity and direction at a time when I needed it most."</p>
+                <h4>- Sneha Patel</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <h2>Latest from Our Blog</h2>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="images/blog-astrology.jpg" alt="Astrology Blog">
+                <h3>Understanding Your Birth Chart</h3>
+                <p>Discover how to read and interpret your birth chart and unlock insights into your personality, relationships, and career path.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog-vastu.jpg" alt="Vastu Blog">
+                <h3>Vastu Tips for a Harmonious Home</h3>
+                <p>Learn the essential Vastu principles to create a space filled with positive energy and balance.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog-numerology.jpg" alt="Numerology Blog">
+                <h3>The Power of Numbers in Your Life</h3>
+                <p>Explore how numerology can guide you in making the right decisions and lead you to success and happiness.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+<br>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you're ready to discover the hidden forces guiding your life, reach out to us today.</p>
+    
+    <form id="contact-form" class="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Send Message</button>
+    </form>
+    
+    <p id="form-message"></p>
+</section>
+
+    
+<br>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 VedicGuru. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
