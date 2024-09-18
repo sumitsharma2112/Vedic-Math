@@ -46,10 +46,12 @@ nav ul li a {
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 15px;
+    border-bottom: 2px solid #0ef;
 }
 
 nav ul li a:hover {
-    background-color: #ff9800; /* Highlight with brand color */
+    background-color: rgb(144, 238, 245); /* Highlight with brand color */
     color: #333;
 }
 
@@ -135,7 +137,7 @@ nav ul li a:hover {
 
 .image-container {
     flex: 1 1 40%; /* Takes up about 40% of the container width */
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .image-container img {
@@ -319,6 +321,8 @@ nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+
 
 /* Contact Section with Modern Style */
 .contact-section {
