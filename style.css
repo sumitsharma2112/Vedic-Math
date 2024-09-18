@@ -135,7 +135,7 @@ nav ul li a:hover {
 
 .image-container {
     flex: 1 1 40%; /* Takes up about 40% of the container width */
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .image-container img {
